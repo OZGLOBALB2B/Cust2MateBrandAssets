@@ -28,7 +28,14 @@ def build():
         odir = os.path.join(SITE, "imagery", group); os.makedirs(odir, exist_ok=True)
         for f in sorted(os.listdir(gdir), key=str.lower):
             name, ext = os.path.splitext(f)
-            if ext.lower() not in EXT or f.startswith("."): continue
+            if f.startswith("."): continue
+            if ext.lower() == ".svg":  # vector: copy as-is, serve directly
+                web = f"{slug(name)}.svg"
+                shutil.copy2(os.path.join(gdir, f), os.path.join(out, web))
+                shutil.copy2(os.path.join(gdir, f), os.path.join(odir, f))
+                items.append(dict(group=group, title=name, src=f"assets/imagery/{group}/{web}", original=f"imagery/{group}/{f}", vector=True))
+                print(f"  {group}/{f} -> {web} (svg)"); continue
+            if ext.lower() not in EXT: continue
             im = Image.open(os.path.join(gdir, f))
             alpha = im.mode in ("RGBA", "LA") or (im.mode == "P" and "transparency" in im.info)
             im = im.convert("RGBA" if alpha else "RGB")
