@@ -4148,8 +4148,8 @@
   "rows": [
    [
     {
-     "src": "assets/social/linkedin-company-cover_1128x191.webp",
-     "file": "assets/social/linkedin-company-cover_1128x191.jpg",
+     "src": "linkedin-company-cover_1128x191.webp",
+     "file": "linkedin-company-cover_1128x191.jpg",
      "title": {
       "en": "LinkedIn — company page cover"
      },
@@ -4159,8 +4159,8 @@
    ],
    [
     {
-     "src": "assets/social/linkedin-personal-cover_1584x396.webp",
-     "file": "assets/social/linkedin-personal-cover_1584x396.jpg",
+     "src": "linkedin-personal-cover_1584x396.webp",
+     "file": "linkedin-personal-cover_1584x396.jpg",
      "title": {
       "en": "LinkedIn — personal profile cover"
      },
@@ -4170,8 +4170,8 @@
    ],
    [
     {
-     "src": "assets/social/x-header_1500x500.webp",
-     "file": "assets/social/x-header_1500x500.jpg",
+     "src": "x-header_1500x500.webp",
+     "file": "x-header_1500x500.jpg",
      "title": {
       "en": "X — profile header"
      },
@@ -4179,8 +4179,8 @@
      "h": 500
     },
     {
-     "src": "assets/social/facebook-cover_820x360.webp",
-     "file": "assets/social/facebook-cover_820x360.jpg",
+     "src": "facebook-cover_820x360.webp",
+     "file": "facebook-cover_820x360.jpg",
      "title": {
       "en": "Facebook — page cover"
      },
