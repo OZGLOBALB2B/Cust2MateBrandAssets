@@ -4,9 +4,9 @@
   "name": {
    "en": "Cust2Mate"
   },
-  "version": "1.0",
+  "version": "1.1",
   "updated": {
-   "en": "September 2026"
+   "en": "November 2026"
   }
  },
  "lang": {
@@ -4005,7 +4005,7 @@
     "en": "Full imagery library"
    },
    "note": {
-    "en": "Illustrations, cart-display screens, photography composites, 40+ store environment renders, white-out packaging elements and the arrow vectors — original resolution."
+    "en": "Illustrations, cart-display screens, photography composites, 40+ store environment renders and white-out packaging elements — original resolution. The arrows have their own section below."
    },
    "label": {
     "en": "Download all Images"
@@ -4139,6 +4139,14 @@
     "lede": {
      "en": "Cover banners for the Cust2Mate social profiles, each sized to its platform. Download the original JPG and upload it as-is."
     }
+   },
+   "arrows": {
+    "title": {
+     "en": "Arrows"
+    },
+    "lede": {
+     "en": "The gradient arrows of the Cust2Mate visual language, as supplied. Use one per layout as the single warm accent. SVG for design tools and print, PNG for slides and documents."
+    }
    }
   },
   "footContact": "For brand assets or approvals, contact the Cust2Mate marketing team. Built by <a href=\"https://www.ozglobalb2b.com\">OZ Global B2B</a>.",
@@ -4189,5 +4197,144 @@
     }
    ]
   ]
+ },
+ "arrows": {
+  "items": [
+   {
+    "src": "assets/arrows/cust2mate-arrow-wave-right.svg",
+    "title": {
+     "en": "Wave — right"
+    },
+    "note": {
+     "en": "Yellow → red → pink"
+    },
+    "w": 1578,
+    "h": 300
+   },
+   {
+    "src": "assets/arrows/cust2mate-arrow-wave-right-red.svg",
+    "title": {
+     "en": "Wave — right"
+    },
+    "note": {
+     "en": "Red → pink"
+    },
+    "w": 1578,
+    "h": 300
+   },
+   {
+    "src": "assets/arrows/cust2mate-arrow-curve-up-from-left.svg",
+    "title": {
+     "en": "Curve up — from left"
+    },
+    "note": {
+     "en": "Yellow → red → pink"
+    },
+    "w": 321,
+    "h": 563
+   },
+   {
+    "src": "assets/arrows/cust2mate-arrow-curve-up-from-right.svg",
+    "title": {
+     "en": "Curve up — from right"
+    },
+    "note": {
+     "en": "Red → pink"
+    },
+    "w": 321,
+    "h": 563
+   },
+   {
+    "src": "assets/arrows/cust2mate-arrow-arc-left.svg",
+    "title": {
+     "en": "Arc — left"
+    },
+    "note": {
+     "en": "Yellow → red → pink"
+    },
+    "w": 559,
+    "h": 381
+   },
+   {
+    "src": "assets/arrows/cust2mate-arrow-arc-right.svg",
+    "title": {
+     "en": "Arc — right"
+    },
+    "note": {
+     "en": "Red → pink"
+    },
+    "w": 565,
+    "h": 380
+   },
+   {
+    "src": "assets/arrows/cust2mate-arrow-loop.svg",
+    "title": {
+     "en": "Loop"
+    },
+    "note": {
+     "en": "Yellow → red → pink"
+    },
+    "w": 902,
+    "h": 764
+   },
+   {
+    "src": "assets/arrows/cust2mate-arrow-loop-red.svg",
+    "title": {
+     "en": "Loop"
+    },
+    "note": {
+     "en": "Red → pink"
+    },
+    "w": 902,
+    "h": 764
+   },
+   {
+    "src": "assets/arrows/cust2mate-arrow-hook-up-left.svg",
+    "title": {
+     "en": "Hook — up left"
+    },
+    "note": {
+     "en": "Yellow → red → pink"
+    },
+    "w": 367,
+    "h": 650
+   },
+   {
+    "src": "assets/arrows/cust2mate-arrow-hook-up-right.svg",
+    "title": {
+     "en": "Hook — up right"
+    },
+    "note": {
+     "en": "Red → pink"
+    },
+    "w": 367,
+    "h": 650
+   },
+   {
+    "src": "assets/arrows/cust2mate-arrow-bold-left.svg",
+    "title": {
+     "en": "Bold — left"
+    },
+    "note": {
+     "en": "Red → pink"
+    },
+    "w": 1079,
+    "h": 564
+   },
+   {
+    "src": "assets/arrows/cust2mate-arrowhead-bold.svg",
+    "title": {
+     "en": "Arrowhead — bold"
+    },
+    "note": {
+     "en": "Red → pink"
+    },
+    "w": 405,
+    "h": 564
+   }
+  ],
+  "downloadAll": {
+   "en": "Download all arrows"
+  }
  }
 }
