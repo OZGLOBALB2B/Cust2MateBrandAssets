@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1078.97 564.36">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        stroke: #f29dff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3 {
+        stroke-width: 62.06px;
+      }
+
+      .cls-2 {
+        stroke-width: 62.06px;
+      }
+
+      .cls-3 {
+        stroke: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="190.13" y1="259.62" x2="956.98" y2="259.62" gradientUnits="userSpaceOnUse">
+      <stop offset=".15" stop-color="#f29dff"/>
+      <stop offset="1" stop-color="#ed4e1a"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-1" d="M90.37,259.62c92.76,0,151.32-68.22,151.32-171.48"/>
+  <path class="cls-2" d="M241.7,437.17c0-103.26-58.57-171.48-151.32-171.48"/>
+  <line class="cls-3" x1="190.13" y1="259.62" x2="956.98" y2="259.62"/>
+</svg>
